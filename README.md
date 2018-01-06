@@ -31,14 +31,14 @@ Read a public x509 certificate (CTRL + D to exit):
 ## <a name="development"></a>Development:
 Specify the Alpine base image and OpenSSL Alpine package version via `make` arguments:
 
-* Run:
+Run:
 
 	ALPINE_VERSION=3.7 OPENSSL_VERSION=1.0.2n-r0 make run
 
-* Build:
+Build:
 
 	ALPINE_VERSION=3.7 OPENSSL_VERSION=1.0.2n-r0 make
 
 
-## To-DO
+## To-Do
 * automated builds
